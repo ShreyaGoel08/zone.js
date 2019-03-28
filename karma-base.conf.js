@@ -10,7 +10,7 @@ if (process.arch == "arm64" || process.arch == "aarch64")
         browser= 'ChromeHeadless';
 }
 else{
-        browser= 'Chrome';
+        browser= 'Chrome', 'ChromeHeadless';
 }
 
 module.exports = function(config) {
